@@ -19,6 +19,8 @@ object_script.*.Debug
 *.pro.user.*
 *.qbs.user
 *.qbs.user.*
+*.vcxproj.user
+*.vcxproj.user.*
 *.moc
 moc_*.cpp
 moc_*.h
@@ -41,3 +43,19 @@ target_wrapper.*
 
 # QtCreator CMake
 CMakeLists.txt.user*
+
+# built directory
+/bin
+/build
+
+# Visual Studio data files
+/.vs
+
+# Visual Studio built files
+/x64
+/debug/*.exe
+/release/*.exe
+/debug/*.pdb
+/release/*.pdb
+/debug/*.ilk
+/release/*.ilk
